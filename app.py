@@ -137,4 +137,4 @@ def comparison():
             return render_template('compar.html', input = False, graph = user1+user2+'.jpg')
 
 if __name__ == "__main__":
-    app.run(host = '0.0.0.0')
+    app.run(debug = True, host = '0.0.0.0')
